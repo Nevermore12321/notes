@@ -51,7 +51,7 @@ $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 
 为了让你对它有最直观的感受，我们为你绘制了一张高清的函数曲线与导数曲线对比图：
 
-![Sigmoid 函数与导数曲线](./pics/sigmoid_plot.svg)
+![Sigmoid 函数与导数曲线](./assets/sigmoid_plot.svg)
 
 > 📌 **读图小指南**：
 >
@@ -134,13 +134,13 @@ $$
 - **改变 $b$ (偏置)**：控制曲线的**左右平移**。
 - **改变 $c$ (缩放系数)**：控制曲线的**高度（振幅）**，还可以是负数（让曲线倒转朝下）。
 
-![Sigmoid 魔法三参数图解](./pics/sigmoid_params_plot.svg)
+![Sigmoid 魔法三参数图解](./assets/sigmoid_params_plot.svg)
 
 ### 5.3 视觉盛宴：多 Sigmoid 组合图解
 
 为了让你亲眼见证这种“拼图”魔法，我们绘制了一张组合图：通过调整三个不同的 Sigmoid（分别平移、倒置、拉伸），将它们简单相加，就能创造出一条完全非线性的红色复杂曲线！
 
-![李宏毅 Sigmoid 组合图解](./pics/lee_sigmoid_plot.svg)
+![李宏毅 Sigmoid 组合图解](./assets/lee_sigmoid_plot.svg)
 
 > **结论：只要你的神经网络足够深、神经元足够多（包含海量的 Sigmoid），通过不断优化 $w, b, c$，神经网络就能逼近这个世界上任何极其复杂的函数关系（比如识别猫、生成文字）！** 这就是深度学习的本质魅力！
 

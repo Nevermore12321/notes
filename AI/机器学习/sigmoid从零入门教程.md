@@ -325,6 +325,8 @@ $$
 
 我们说的 Sigmoid 就是 $L=1, k=1, x_0=0$ 的特例。
 
+![Logistic Function 参数对比](./assets/logistic_variants_plot.svg)
+
 ### 5.2 Sigmoid vs Tanh（同父异母的兄弟）
 
 **Tanh 函数**：
@@ -358,6 +360,8 @@ $$
 | 导数最大值 | $0.25$            | $1.0$                 |
 | 用途       | 输出概率、门控   | 隐藏层（早期常见）   |
 
+![Sigmoid 与 Tanh 对比](./assets/sigmoid_vs_tanh_plot.svg)
+
 ### 5.3 Sigmoid vs Softmax（特例与推广）
 
 **Softmax**（多分类时用）：
@@ -386,6 +390,8 @@ $$
 | 梯度消失       | 严重                         | 几乎没有（正区间梯度=1）|
 | 输出零中心     | ❌                           | ❌                      |
 | 适用场景       | 输出层、门控                 | 隐藏层（现代默认选择）  |
+
+![Sigmoid 与 ReLU 对比](./assets/sigmoid_vs_relu_plot.svg)
 
 ---
 
